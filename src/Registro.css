@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .registro-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .registro-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .registro-title {
+    text-align: center;
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+  }
+  
+  .form-group:last-child {
+    margin-right: 0;
+  }
+  
+  input {
+    padding: 8px;
+    font-size: 1rem;
+  }
+  
+  .form-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
